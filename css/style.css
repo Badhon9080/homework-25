@@ -1,0 +1,133 @@
+/*
+Theme Name: MyFolio
+Author: My Folio
+Version: 1.0.0
+
+
+Table of Content
+===================================================
+
+    1. Common Css
+    2. Nav Section
+    3. Banner Section
+*/
+/* Common Css Start */
+h1,h2,h3,h4,h5,h6,
+p,
+ul,ol,
+span,
+small{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style-type: none;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+/*//Common Css End */ 
+/* Nav Section Css Start */
+#w:hover{
+    color: yellow;
+}
+/*// Nav Section Css End */
+
+/* Banner Section Css Start */
+
+#heading{
+    color :#fff;
+    background-color: #0b0b0b;
+}
+#banner{
+    height: 669px;
+
+}
+#banner .banner_content{
+    margin-top: 140px;
+}
+
+
+#banner .banner_content h2{
+    color: #fff;
+    font-size:40px;
+}
+#banner .banner_content p{
+    padding-top: 20px;
+    width: 660px;
+    color: #fff
+}
+#banner .banner_content .anchor{
+    margin-top: 50px;
+    
+}
+#banner .banner_content a{
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: yellow;
+    padding: 20px 20px;
+    color: #fff;
+}
+#banner .banner_content a:hover{
+    background-color: purple;
+}
+
+/* //Banner Section Css End */
+/*About Section Start */
+#about{
+    margin-top: 80px;
+}
+#about .about_content p{
+    margin-top: 30px;
+}
+.about_slider_item{
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    
+}
+
+.about_slider{
+    margin-top: 50px;
+    position: relative;
+    padding: 10px 0;
+  
+}
+.about_slider::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    background-image: url(../img/asset\ 41.png);
+    
+    height: 5px;
+    left: 0;
+    top: 0;
+    background-repeat: no-repeat;
+}
+.about_slider::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    background-image: url(../img/asset\ 40.png);
+    background-repeat: no-repeat;
+    
+    height: 8px;
+    right: 0;
+    bottom: 0;
+ 
+}
+#about .about_slider_text{
+    margin-top: 100px;
+    margin-left: -35px;
+}
+#about .anchor2{
+    margin-top: 70px;
+}
+#about .anchor2 a{
+    padding: 24px 21px;
+    background-color: purple;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+/* //About Section End */

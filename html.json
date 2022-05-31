@@ -1,0 +1,22 @@
+{
+    "HTML Comments Generator": {
+        "prefix": "comment",
+        "body": [
+          "<!-- ${1} Section Start -->",
+          "   ${2}",
+          "<!-- //${1} Section End -->"
+        ],
+        "description": "HTML Comments Generator"
+      },
+      "HTML Section Generator": {
+        "prefix": "section",
+        "body": [
+          "<section id=\"${1}\">",
+          "   <div class=\"container\">",
+          "     <div class=\"row\">${2}$0</div>",
+          "  </div>",
+          "</section>"
+        ],
+        "description": "HTML Comments Generator"
+      }
+}
